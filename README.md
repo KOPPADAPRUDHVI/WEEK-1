@@ -6,6 +6,11 @@ This project focuses on developing a Convolutional Neural Network (CNN) model to
 
 Key Features:
 
-Dataset: A curated dataset containing labeled images of different types of plastic waste.
-Model Architecture: A CNN model designed for accurate image classification.
-Goal: Enhance efficiency in waste sorting and promote effective recycling processes.
+- Dataset: A curated dataset containing labeled images of different types of plastic waste.
+- Model Architecture: A CNN model designed for accurate image classification.
+- Goal: Enhance efficiency in waste sorting and promote effective recycling processes.
+
+Objective:
+
+- Classify different types of plastic waste (e.g., plastic bottles, bags, containers) using deep learning techniques.
+- Contribute to the environmental cause by automating plastic waste detection and facilitating recycling processes.
