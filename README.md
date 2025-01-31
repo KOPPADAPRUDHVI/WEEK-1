@@ -1,4 +1,3 @@
-# WEEK-1
 
 # Project Description
 
