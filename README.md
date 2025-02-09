@@ -1,18 +1,56 @@
+Plastic Waste Classification using CNN
 
-# Project Description
+📌 Project Overview
 
+This project utilizes a Convolutional Neural Network (CNN) to classify images of plastic waste into two categories: Organic and Recyclable. The model is trained using a dataset of waste images and helps automate waste classification, improving waste management efficiency.
 
-This project focuses on developing a Convolutional Neural Network (CNN) model to classify images of plastic waste into various categories. The aim is to contribute to waste management and environmental conservation by providing a tool to automate the sorting process of plastic materials.
+🎯 Learning Objectives
 
-Key Features:
+Develop a CNN-based image classification model.
 
-- Dataset: A curated dataset containing labeled images of different types of plastic waste.
-  You can access the dataset here: [Waste Classification Data](https://www.kaggle.com/datasets/techsash/waste-classification-data).
-  
-- Model Architecture: A CNN model designed for accurate image classification.
-- Goal: Enhance efficiency in waste sorting and promote effective recycling processes.
+Utilize TensorFlow and Keras for deep learning.
 
-Objective:
+Preprocess image data using OpenCV and ImageDataGenerator.
 
-- Classify different types of plastic waste (e.g., plastic bottles, bags, containers) using deep learning techniques.
-- Contribute to the environmental cause by automating plastic waste detection and facilitating recycling processes.
+Train, validate, and test the model on a waste classification dataset.
+
+Evaluate model performance using accuracy and loss metrics.
+
+🛠️ Tools and Technologies Used
+
+Programming Language: Python
+
+Libraries: TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib
+
+Deep Learning Framework: Convolutional Neural Network (CNN)
+
+Dataset: Waste Classification Dataset
+
+Data Augmentation: ImageDataGenerator
+
+📌 Dataset
+
+The dataset consists of images categorized as:
+
+Organic Waste (O): Biodegradable waste items.
+
+Recyclable Waste (R): Items that can be recycled, such as plastic bottles.
+
+Paths to dataset:
+
+train_path = "/root/.cache/kagglehub/datasets/techsash/waste-classification-data/versions/1/DATASET/TRAIN"
+test_path = "/root/.cache/kagglehub/datasets/techsash/waste-classification-data/versions/1/DATASET/TEST"
+
+🚀 Methodology
+
+Data Collection: Images of plastic waste are collected and categorized.
+
+Data Preprocessing: Images are resized, normalized, and augmented.
+
+Model Building: A CNN architecture is designed with Conv2D, MaxPooling, Flatten, Dense, and Dropout layers.
+
+Training & Validation: The model is trained using ImageDataGenerator with real-time augmentation.
+
+Performance Evaluation: Accuracy and loss are plotted to analyze the model’s effectiveness.
+
+Prediction: The trained model is tested on new images for classification.
