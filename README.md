@@ -18,7 +18,8 @@ This project focuses on classifying waste images into two categories: **Organic*
 - **ImageDataGenerator** (for image augmentation)
 
 ## Dataset
-The dataset used for training and testing is sourced from Kaggle and consists of labeled images of waste materials. It is structured into **TRAIN** and **TEST** directories, each containing images categorized as **Organic** and **Recyclable**.
+The dataset used for training and testing is sourced from Kaggle and consists of labeled images of waste materials. It is structured into **TRAIN** and **TEST** directories, each containing images categorized as **Organic** and **Recyclable**. 
+(Link for the Dataset)[https://www.kaggle.com/datasets/techsash/waste-classification-data]
 
 ## Methodology
 1. **Data Preprocessing**
