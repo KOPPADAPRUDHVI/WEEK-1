@@ -1,4 +1,4 @@
-Plastic Waste Classification using CNN
+**Plastic Waste Classification using CNN**
 
 📌 Project Overview
 
